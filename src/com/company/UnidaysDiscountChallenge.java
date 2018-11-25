@@ -29,7 +29,7 @@ public class UnidaysDiscountChallenge {
 
         //for loop to cycle through the basket and search for items
         //when item is found - increment or decrement the total dependent on pricing rules
-        //In this case only itemE will decrement
+
         for (int i = 0; i < integerArrayList.size(); i++){
             if (integerArrayList.get(i) == 'a'){
                 itemA++;
